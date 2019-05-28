@@ -2,7 +2,7 @@
  * automatically bind all methods of a class to the current instance
  * (handy when using methods that are called as callbacks via decorator)
  */
-export function autoPropBind<T>(instance: T | any): T {
+export function autoBind<T>(instance: T | any): T {
   // bind each key of instance
   for (const key of Object.getOwnPropertyNames(
     instance.constructor.prototype

@@ -1,8 +1,5 @@
 {
-  "include": [
-    "src",
-    "types"
-  ],
+  "include": ["src", "types"],
   "compilerOptions": {
     // "target": "es5",
     // "module": "esnext",
@@ -12,12 +9,7 @@
     // ],
     "target": "es5",
     "module": "es2015",
-    "lib": [
-      "es2015",
-      "es2016",
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2015", "es2016", "es2017", "dom"],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "importHelpers": true,
@@ -29,7 +21,6 @@
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
-    "noImplicitThis": true,
     "alwaysStrict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -38,10 +29,7 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
-      "*": [
-        "src/*",
-        "node_modules/*"
-      ]
+      "*": ["src/*", "node_modules/*"]
     },
     "jsx": "react",
     "esModuleInterop": true

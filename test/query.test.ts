@@ -114,7 +114,7 @@ describe('Query', () => {
 
     // create another test span
     const newTestSpan = document.createElement('span');
-    newTestSpan.classList.add('.test-span');
+    newTestSpan.classList.add('test-span');
     const containerDiv = document.getElementById('container') as HTMLElement;
     containerDiv.appendChild(newTestSpan);
 
